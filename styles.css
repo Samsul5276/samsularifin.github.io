@@ -238,7 +238,7 @@ footer {
 .hobbies-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Membuat 2 kolom di desktop */
-    gap: 30px;
+    gap: 30px; /* <--- INI SEHARUSNYA MEMBERI JARAK */
     margin-top: 40px;
     text-align: left;
 }
